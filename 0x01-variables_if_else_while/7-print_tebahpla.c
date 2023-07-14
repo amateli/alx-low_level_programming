@@ -12,12 +12,11 @@
 
 int main(void)
 {
-	char alpha[] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
-	for (i = 26; i >= 0; i--)
+	for (i = 'z'; i >= 'a'; i--)
 	{
-		putchar(alpha[i]);
+		putchar(i);
 	}
 	putchar('\n');
 	return (0);
